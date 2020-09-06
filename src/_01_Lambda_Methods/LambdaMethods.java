@@ -6,11 +6,11 @@ public class LambdaMethods {
 	
 		// Here is an example of calling the printCustomMessage method with a lambda.
 		// This prints the passed in String 10 times.
-		printCustomMessage((s)->{
-			for(int i = 0; i < 10; i++) {
-				System.out.println(s);
-			}
-		}, "repeat");
+//		printCustomMessage(()->{
+//			for(int i = 0; i < 10; i++) {
+//				System.out.println(s);
+//			}
+//		}, "repeat");
 		
 		//2. Call the printCustonMessage method using a lambda so that the String prints backwards.
 		
