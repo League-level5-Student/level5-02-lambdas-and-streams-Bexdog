@@ -6,11 +6,28 @@ public class LambdaMethods {
 	
 		// Here is an example of calling the printCustomMessage method with a lambda.
 		// This prints the passed in String 10 times.
-//		printCustomMessage(()->{
-//			for(int i = 0; i < 10; i++) {
-//				System.out.println(s);
-//			}
-//		}, "repeat");
+		printCustomMessage((s)->{
+			for(int i = 0; i < s.length(); i++) {
+				if(s.substring(i, i+1).equals("a")) {
+					
+				}
+				else if(s.substring(i, i+1).equals("e")){
+					
+				}
+				else if(s.substring(i, i+1).equals("i")){
+					
+				}
+				else if(s.substring(i, i+1).equals("o")){
+	
+				}
+				else if(s.substring(i, i+1).equals("u")){
+	
+				}
+				else {
+					System.out.println(s.charAt(i));
+				}
+			}
+		}, "cool");
 		
 		//2. Call the printCustonMessage method using a lambda so that the String prints backwards.
 		
